@@ -1,0 +1,1 @@
+This bot fetches a random quote daily at specified time from a kaggle database and displays information about the quote.
