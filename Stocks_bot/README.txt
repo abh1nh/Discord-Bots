@@ -1,0 +1,1 @@
+This bot allows the user to pull stock price information using the finnhub api
