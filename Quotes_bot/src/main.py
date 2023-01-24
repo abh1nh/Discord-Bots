@@ -9,13 +9,13 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from apscheduler.triggers.cron import CronTrigger
 
 
-BOT_TOKEN = "MTA1NjcwNTQxNjY2NDQ0OTEwNA.G02jNH.pHDSqKdgnaxRn1a5JO56ROV8SviE9GsKomgbnI"
-CHANNEL_ID = 1056730128610234518
+BOT_TOKEN = "your_token_here"
+CHANNEL_ID = your_channelID_here
 
 count = 0
 
 
-dataPath = 'C:/Users/Abhi/Desktop/PROJECTS/Discord Bots/Quotes_bot'
+dataPath = 'path_to_root'
 sys.path.append(dataPath)
 f_name = 'quotes.json'
 
