@@ -1,12 +1,9 @@
-import json
-import sys
-
 import discord
 from discord.ext import commands
 
 
 import finnhub
-finnhub_client = finnhub.Client(api_key="c1nr4si37fkv6lmc36ig")
+finnhub_client = finnhub.Client(api_key="your_key_here")
 
 allowedStks = finnhub_client.stock_symbols('US')
 allowedSymbols = []
@@ -15,11 +12,8 @@ for stk in allowedStks:
     allowedSymbols.append(stk["displaySymbol"])
 
 
-BOT_TOKEN = "MTA1NzgyNzUyOTU2MzU3MDMxNw.GOiqog.NGs9Vc0JmnfO4nThkYOfmq4x4_qN8vQlhUW8o0"
-CHANNEL_ID = 1058177575874207845
-
-dataPath = 'C:/Users/Abhi/Desktop/PROJECTS/Discord Bots/Stocks_bot'
-sys.path.append(dataPath)
+BOT_TOKEN = "your_token_here"
+CHANNEL_ID = your_channelID_here
 
 
 bot = commands.Bot(command_prefix="!",
